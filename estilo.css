@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    max-width: 1920px;
+}
+
+#interface {
+    text-align: center;
+    background-color: rgb(13, 13, 39);
+}
+
+.container {
+    background-color: rgba(7, 4, 31, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.menuItens {
+    margin: auto;
+}
+
+ul.itens {
+    list-style: none;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0px 1px 1px white;
+    transition: 1s;
+}
+
+.item1:hover {
+    font-size: 25px;
+    text-shadow: 0px 2px 10px white;
+}
+
+.item2:hover {
+    font-size: 25px;
+    text-shadow: 0px 2px 10px white;
+}
+
+.item3:hover {
+    font-size: 25px;
+    text-shadow: 0px 2px 10px white;
+}
+
+.item4:hover {
+    font-size: 25px;
+    text-shadow: 0px 2px 10px white;
+}
+
+#imPerfil {
+    width: 220px;
+    border-radius: 125px;
+    box-shadow: 0px 2px 2px white;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+legend#frase {
+    color: rgb(255, 255, 9);
+    padding: 5px;
+}
+
+div#historia {
+    max-width: 300px;
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+}
+
+#his {
+    font: normal 30px arial;
+    margin-bottom: 10px;
+}
+
+p#texthistoria {
+    font-size: 16px;
+    font-family: 'Gelasio', serif;
+}
+
+div#mapPalmares {
+    display: inline-block;
+    margin: 10px auto 10px auto;
+}
+
+#f1,
+#f2,
+#f3 {
+    border-radius: 20px;
+    margin: 10px auto 10px auto;
+}
+
+div#ideais {
+    background-color: rgb(7, 4, 31);
+}
+
+div#cont {
+    text-align: center;
+    max-width: 600px;
+    margin: 5px auto 0px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+h3#ideal {
+    font: normal 30px arial;
+    margin-bottom: 10px;
+}
+
+p#textideal {
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Gelasio', serif;
+}
+
+p#txtidealp2 {
+    padding: 5px;
+}
+
+div#lazer {
+    max-width: 960px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(7, 4, 31);
+}
+
+h3#laz {
+    font: normal 30px arial;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 1px white;
+    color: white;
+}
+
+ul {
+    align-items: center;
+}
+
+#serie {
+    display: inline-block;
+}
+
+#game {
+    display: inline-block;
+}
+
+#filme {
+    display: inline-block;
+}
+
+#teoria {
+    display: inline-block;
+}
+
+.serie,
+.game,
+.filme,
+.teoria {
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 0px 0px 2px white;
+}
+
+.info {
+    max-width: 250px;
+    margin: 10px auto 10px auto;
+    color: white;
+    background-color: rgba(7, 4, 31, 0.945);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 13px;
+    font-family: 'Gelasio', serif;
+}
+
+div#contato {
+    text-align: center;
+    background-color: rgb(7, 4, 31);
+}
+
+h3#contact {
+    font: normal 30px arial;
+    text-shadow: 0px 1px 1px white;
+    color: white;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#mensagem {
+    padding: 0px;
+    height: 100px;
+    padding: 5px;
+    text-align: center;
+}
+
+#btnenviar {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(17, 17, 80);
+}
